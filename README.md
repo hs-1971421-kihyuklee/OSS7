@@ -12,7 +12,7 @@
 
 
 ----------
-데이터 베이스 오픈소스 - redis
+데이터 베이스 오픈소스 - Redis
 
 해외 및 국내 제품 위치 조회 - osmdroid
 (https://github.com/osmdroid/osmdroid)
@@ -28,5 +28,4 @@
 
 주문/재고/고객정보관리/체크아웃/결제관리 -opencart
 
-구매대행 중개 서비스 - purchasing_agent_mediation
-(https://github.com/wlsgml719/purchasing_agent_mediation)
+웹 서버 오픈소스 - Apache HTTP Server
