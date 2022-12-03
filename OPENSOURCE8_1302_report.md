@@ -146,7 +146,6 @@
      간단한 REST API, 분산형 특징, 속도, 확장성으로 유명한 Elasticsearch는 데이터 수집, 보강, 저장, 분석, 시각화를 위한 무료 개방형 도구 모음인 Elastic Stack의 핵심 구성 요소입니다.
      보통 ELK Stack(Elasticsearch, Logstash, Kibana의 머리글자)이라고 하는 Elastic Stack에는 이제 데이터를 Elasticsearch로 전송하기 위한 경량의 다양한 데이터 수집 에이전트인 Beats가 포함되어 있습니다.
 
-     ***
 
      Elasticsearch의 사용처
 
@@ -160,7 +159,6 @@
      보안 분석
      비즈니스 분석
 
-     ***
 
      Elasticsearch의 작동법
 
@@ -169,7 +167,6 @@
      Elasticsearch에서 일단 색인되면, 사용자는 이 데이터에 대해 복잡한 쿼리를 실행하고 집계를 사용해 데이터의 복잡한 요약을 검색할 수 있습니다.
      Kibana에서 사용자는 데이터를 강력하게 시각화하고, 대시보드를 공유하며, Elastic Stack을 관리할 수 있습니다.
 
-     ***
 
      Elasticsearch 인덱스란
 
@@ -180,7 +177,6 @@
      색인 프로세스 중에, Elasticsearch는 문서를 저장하고 역 인덱스를 구축하여 거의 실시간으로 문서를 검색 가능한 데이터로 만듭니다.
      인덱스 API를 사용해 색인이 시작되며, 이를 통해 사용자는 특정한 인덱스에서 JSON 문서를 추가하거나 업데이트할 수 있습니다.
 
-     ***
 
      Elasticsearch를 사용하는 이유
 
@@ -188,25 +184,23 @@
      이것은 문서가 색인될 때부터 검색 가능해질 때까지의 대기 시간이 아주 짧다는 뜻입니다. 이 대기 시간은 보통 1초입니다.
      결과적으로, Elasticsearch는 보안 분석, 인프라 모니터링 같은 시간이 중요한 사용 사례에 이상적입니다.
 
-     ***
 
      Elasticsearch 분상성
+
      Elasticsearch에 저장된 문서는 샤드라고 하는 여러 다른 컨테이너에 걸쳐 분산되며, 이 샤드는 복제되어 하드웨어 장애 시에 중복되는 데이터 사본을 제공합니다.
      Elasticsearch의 분산적인 특징은 수백 개(심지어 수천 개)의 서버까지 확장하고 페타바이트의 데이터를 처리할 수 있게 해줍니다.
 
-     ***
 
      Elasticsearch는 광범위한 기능 세트와 함께 제공됩니다.
+
      속도, 확장성, 복원력뿐 아니라, Elasticsearch에는 데이터 롤업, 인덱스 수명 주기 관리 등과 같이 데이터를 훨씬 더 효율적으로 저장하고 검색할 수 있게 해주는 강력한 기본 기능이 다수 탑재되어 있습니다.
 
-     ***
 
      Elastic Stack은 데이터 수집, 시각화, 보고를 간소화합니다.
 
      Beats와 Logstash의 통합은 Elasticsearch로 색인하기 전에 데이터를 훨씬 더 쉽게 처리할 수 있게 해줍니다.
      Kibana는 Elasticsearch 데이터의 실시간 시각화를 제공하며, UI를 통해 애플리케이션 성능 모니터링(APM), 로그, 인프라 메트릭 데이터에 신속하게 접근할 수 있습니다.
 
-     ***
 
      Elasticsearch 프로그래밍 지원 언어
 
@@ -219,20 +213,17 @@
      Python
      Ruby
 
-     ***
 
      Elasticsearch 지원 텍스트 언어
 
      Elasticsearch는 아랍어에서부터 태국어에 이르기까지 34개의 텍스트 언어를 지원하며 각 언어에 대한 분석기를 제공합니다.
      Elasticsearch 언어 분석기 설명서에서 전체 목록을 찾아보실 수 있습니다. 사용자 정의 플러그인으로 그 밖에 다른 언어에 대한 지원도 추가하실 수 있습니다.
 
-     ***
 
      Elasticsearch REST API 제공
 
      Elasticsearch는 클러스터 상태 확인, 인덱스에 대한 CRUD(생성, 읽기, 업데이트 삭제) 및 검색 작업 실행, 필터링 및 집계 같은 고급 검색 작업 수행을 위한 종합적이며 강력한 REST API 세트를 제공합니다.
 
-     ***
 
      Elasticsearch 기능 Enterprise Search
 
@@ -257,15 +248,14 @@
         Elastic의 현대적이고 확장 가능한 인프라로 시즌 쇼핑이 급증할 때 안심하세요. 클러스터 및 지리적 이중화 및 자동 확장을 통해 가용성을 유지하고 성능 목표를 초과 달성합니다.
         선호하는 클라우드 서비스 제공자를 사용하거나(50개 이상의 클라우드 영역 및 카운팅에 데이터를 근접하게 유지) 직접 호스팅 할 수 있다.
 
-     ***
 
      Elasticsearch를 사용하는 기업
 
      H-E-B, General Motors, Office Depot
 
-     ***
 
      사용 라이센스
+
      Elasticsearch와 Kibana의 Apache 2.0 라이선스 소스 코드를 Elastic License와 SSPL(Server Side Public License)에 따라 이중 라이선스로 전환하여 사용자가 어느 라이선스를 적용할 지 선택할 수 있도록 변경하고 있습니다.
      또한 Elastic License(Elastic License v2 또는 ELv2)를 단순화하고 훨씬 더 허용 범위가 커지도록 하고 있습니다.
      이러한 라이선스 변경은 커뮤니티와 고객이 코드를 사용, 수정, 재배포 및 공동 작업할 수 있는 무료 개방형 액세스를 보장합니다. 또한 클라우드 서비스 제공자가 다시 기여하지 않고 Elasticsearch와 Kibana를
