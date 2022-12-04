@@ -21,7 +21,8 @@
 
 ### 3. DFD
    <br>
-   <img width="535" alt="image" src="https://user-images.githubusercontent.com/55376275/205005398-99a36dba-e664-4544-8e67-ef74246292f3.png">
+  ![화면 캡처 2022-12-04 192100](https://user-images.githubusercontent.com/55376275/205485453-8da20760-06e0-46f3-bcd4-859a45467095.jpg)
+
 -----
 
 ### 4. 사용된 오픈소스 소프트웨어 소개
