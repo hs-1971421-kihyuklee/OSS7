@@ -21,7 +21,7 @@
 
 ### 3. DFD
    <br>
-  ![화면 캡처 2022-12-04 192100](https://user-images.githubusercontent.com/55376275/205485453-8da20760-06e0-46f3-bcd4-859a45467095.jpg)
+   <img width="535" alt="image" src="https://user-images.githubusercontent.com/55376275/205485453-8da20760-06e0-46f3-bcd4-859a45467095.jpg">
 
 -----
 
